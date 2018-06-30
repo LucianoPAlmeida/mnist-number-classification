@@ -1,6 +1,6 @@
 # mnist-number-classification
 
-This is a Convolutional Neural Network model trained with the MNIST Dataset of handwritten digits and 
+This is a Convolutional Neural Network model trained with the [MNIST Dataset](https://en.wikipedia.org/wiki/MNIST_database) of handwritten digits and 
 this model was implemented to support the [CoreML-MNIST](https://github.com/LucianoPAlmeida/CoreML-MNIST) Demo Application.
 
 ## Tools
@@ -28,6 +28,10 @@ The [AdamOptimizer](https://www.tensorflow.org/api_docs/python/tf/train/AdamOpti
 
 With a trained model and saved .pb file, tf-coreml was used generate a CoreML model. 
 The code is available on [coreml_converter.py](https://github.com/LucianoPAlmeida/mnist-number-classification/blob/master/coreml_converter.py)
+
+## Credits and Thanks
+
+- [Udacity](https://www.udacity.com) for their awesome [Deep Learning Nanodegree Foundation](https://www.udacity.com/course/deep-learning-nanodegree--nd101) course.
 
 ## License
 
