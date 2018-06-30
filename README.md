@@ -16,13 +16,13 @@ The model was trainned with 70 epochs with a batch size of 512. Achieving 0.9844
 The [AdamOptimizer](https://www.tensorflow.org/api_docs/python/tf/train/AdamOptimizer) was used to train this network with a learning rate of 0.00001.
 
 ### Architecture 
- * conv2d with filter size 32, strides 5, padding same relu activation
+ * conv2d with filter size 32, strides 5, padding same and relu activation
  * max_pooling2d with pool size of 2 and strides 2
- * conv2d with filter size 64, strides 5, padding same relu activation
+ * conv2d with filter size 64, strides 5, padding same and relu activation
  * max_pooling2d with pool size of 2 and strides 2
- * fully_connected with number of outputs 1024 and activation relu
- * fully_connected with number of outputs 10 and no activation function.
- * softmax activation function.
+ * fully_connected with number of outputs 1024 and relu activation
+ * fully_connected with number of outputs 10 and no activation function
+ * softmax activation layer
 
 ## The CoreML Model
 
