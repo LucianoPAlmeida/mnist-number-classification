@@ -1,5 +1,7 @@
 # mnist-number-classification
 
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+
 This is a Convolutional Neural Network model trained with the [MNIST Dataset](https://en.wikipedia.org/wiki/MNIST_database) of handwritten digits and 
 this model was implemented to support the [CoreML-MNIST](https://github.com/LucianoPAlmeida/CoreML-MNIST) Demo Application.
 
@@ -33,6 +35,7 @@ The code is available on [coreml_converter.py](https://github.com/LucianoPAlmeid
 
 - [Udacity](https://www.udacity.com) for their awesome [Deep Learning Nanodegree Foundation](https://www.udacity.com/course/deep-learning-nanodegree--nd101) course.
 
-## License
 
-mnist-number-classification is released under the MIT License.
+## Licence 
+
+mnist-number-classification is released under the [MIT License](https://opensource.org/licenses/MIT).
